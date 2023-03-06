@@ -2,7 +2,7 @@ version: '3.3'
 services:
   imagesaving_api:
     build: .
-    command: python /src/manage.py runserver 0.0.0.0:8088
+    command: python /src/manage.py runserver 0.0.0.0:8090
     container_name: api.image.com
     restart: always
     volumes:
