@@ -14,7 +14,7 @@ RUN apt-get install -y swig
 RUN apt-get install -y gettext
 RUN apt-get install -y libgettextpo-dev
 RUN apt-get install -y graphviz-dev
-ENV DJANGO_SETTINGS_MODULE=dgid_backend.settings
+ENV DJANGO_SETTINGS_MODULE=images_uploads.settings
 
 # Set work directory
 RUN mkdir /src
